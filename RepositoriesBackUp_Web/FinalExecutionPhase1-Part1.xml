@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="PassengerAndDriverApp-Android" verbose="1" parallel="tests" thread-count="10" group-by-instances="false">
+	<listeners>
+        <listener class-name="util.listeners.AnnotationTransformer" />
+    </listeners>
+    
+    <test name="TC001"  >	
+		<parameter name="browser" value="CHROME"/> 		
+		<classes>
+			<class name="testScripts.LoginCMS"/>
+		</classes>
+	</test> 
+	 <!-- <test name="TC002"  >	
+		<parameter name="browser" value="MSEDGE"/> 		
+		<classes>
+			<class name="testScripts.TC001_BitBucketRepositoriesBackup"/>
+		</classes>
+	</test> 
+	<test name="TC003"  >	
+		<parameter name="browser" value="FIREFOX"/> 		
+		<classes>
+			<class name="testScripts.TC001_BitBucketRepositoriesBackup"/>
+		</classes>
+	</test>  -->
+</suite>

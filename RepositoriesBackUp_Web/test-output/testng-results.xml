@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PassengerAndDriverApp-Android" duration-ms="38887" started-at="2018-12-11T07:59:30Z" finished-at="2018-12-11T08:00:09Z">
+    <groups>
+    </groups>
+    <test name="TC001" duration-ms="38887" started-at="2018-12-11T07:59:30Z" finished-at="2018-12-11T08:00:09Z">
+      <class name="testScripts.LoginCMS">
+        <test-method status="PASS" signature="setUpBeforeSuite()[pri:0, instance:testScripts.LoginCMS@2d6eabae]" name="setUpBeforeSuite" is-config="true" duration-ms="5439" started-at="2018-12-11T07:59:25Z" finished-at="2018-12-11T07:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeSuite -->
+        <test-method status="PASS" signature="createParentTest(org.testng.ITestContext)[pri:0, instance:testScripts.LoginCMS@2d6eabae]" name="createParentTest" is-config="true" duration-ms="14" started-at="2018-12-11T07:59:30Z" finished-at="2018-12-11T07:59:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6f27a732]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createParentTest -->
+        <test-method status="PASS" signature="BeforeTest(java.lang.String)[pri:0, instance:testScripts.LoginCMS@2d6eabae]" name="BeforeTest" is-config="true" duration-ms="2471" started-at="2018-12-11T07:59:30Z" finished-at="2018-12-11T07:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="createChildTest(java.lang.reflect.Method)[pri:0, instance:testScripts.LoginCMS@2d6eabae]" name="createChildTest" is-config="true" duration-ms="12" started-at="2018-12-11T07:59:33Z" finished-at="2018-12-11T07:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.LoginCMS.loginCMS()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChildTest -->
+        <test-method status="PASS" signature="dataReader(java.lang.String)[pri:0, instance:testScripts.LoginCMS@2d6eabae]" name="dataReader" is-config="true" duration-ms="3" started-at="2018-12-11T07:59:33Z" finished-at="2018-12-11T07:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./src/test/resources/testData/tc_001/TC_001.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataReader -->
+        <test-method status="PASS" signature="loginCMS()[pri:0, instance:testScripts.LoginCMS@2d6eabae]" name="loginCMS" duration-ms="35006" started-at="2018-12-11T07:59:33Z" description="Login CMS" finished-at="2018-12-11T08:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCMS -->
+        <test-method status="PASS" signature="getTheResult(org.testng.ITestResult)[pri:0, instance:testScripts.LoginCMS@2d6eabae]" name="getTheResult" is-config="true" duration-ms="1229" started-at="2018-12-11T08:00:08Z" finished-at="2018-12-11T08:00:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginCMS status=SUCCESS method=LoginCMS.loginCMS()[pri:0, instance:testScripts.LoginCMS@2d6eabae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTheResult -->
+        <test-method status="PASS" signature="getTheSkipStatus(org.testng.ITestContext)[pri:0, instance:testScripts.LoginCMS@2d6eabae]" name="getTheSkipStatus" is-config="true" duration-ms="125" started-at="2018-12-11T08:00:09Z" finished-at="2018-12-11T08:00:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6f27a732]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTheSkipStatus -->
+        <test-method status="PASS" signature="sendMail()[pri:0, instance:testScripts.LoginCMS@2d6eabae]" name="sendMail" is-config="true" duration-ms="14276" started-at="2018-12-11T08:00:14Z" finished-at="2018-12-11T08:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+      </class> <!-- testScripts.LoginCMS -->
+    </test> <!-- TC001 -->
+  </suite> <!-- PassengerAndDriverApp-Android -->
+</testng-results>
